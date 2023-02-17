@@ -1,0 +1,31 @@
+This repository contains my homeworks/class works from school i created and wanted to save. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lua > PHP
