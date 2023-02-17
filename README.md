@@ -1,4 +1,4 @@
-This repository contains my homeworks/class works from school i created and wanted to save. 
+This repository contains my homeworks/class works from school I created and wanted to save. 
 
 
 
