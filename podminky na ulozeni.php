@@ -1,3 +1,4 @@
+<?php
 if($i<10){
             if(date("w", $datum)== 0 or date("w", $datum)== 6){
 
@@ -23,3 +24,4 @@ if($i<10){
         if(date("l", $datum)=="Monday" and $i != $lastday){
             echo date("W/ ", $datum);
         }
+?>
