@@ -1,3 +1,4 @@
+<?php
 function cas($month, $year){
     $mesice=array("Leden", "Unor", "Brezen", "Duben", "Kveten", "Cerven", "Cervenec", "Srpen", "Zari", "Rijen", "Listopad", "Prosinec");
     $datum = strtotime("1.$month.$year");
@@ -49,3 +50,4 @@ function cas($month, $year){
 }
 
 echo cas(2, 2023)
+?>
