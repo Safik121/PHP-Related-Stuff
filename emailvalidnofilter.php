@@ -1,3 +1,4 @@
+<?php
 function validator($mail){
     $part = explode("@", $mail);
     if(count($part)!=2){
@@ -11,3 +12,4 @@ function validator($mail){
         }
     }
 }
+?>
