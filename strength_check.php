@@ -1,4 +1,5 @@
 <?php
+
 function strength_check($password){
     if(strlen($password) < 8){
         return "Your password is really weak, try longer one!";
@@ -24,4 +25,5 @@ function strength_check($password){
 }
 
 echo strength_check('');
+
 ?>
