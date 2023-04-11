@@ -1,3 +1,4 @@
+<?php
 function cas($month, $year){
     $svatky = array(date("01.01.Y"), date("01.05.Y"), date("08.05.Y"), date("05.07.Y"), date("06.07.Y"), date("28.09.Y"), date("28.10.Y"), date("17.11.Y"), date("24.12.Y"));
     $mesice=array("Leden", "Unor", "Brezen", "Duben", "Kveten", "Cerven", "Cervenec", "Srpen", "Zari", "Rijen", "Listopad", "Prosinec");
@@ -28,3 +29,4 @@ function cas($month, $year){
 }
 
 echo cas(2, 2023);
+?>
