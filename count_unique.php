@@ -6,11 +6,13 @@ function unique($unique){
             $unique2[] = $value;
         }
     }
-    return $unique2;
+    if(count($unique2) == 0){
+        return "No unique values";
+    }else{
+        return implode(", ",$unique2);
+    }
 }
 
-
-
-echo implode(", ", unique(array(1, 1, 2, 2, 3, 3, 4, 4, 5))); 
+echo unique(array("ahoj", "ahoj", "jj", "cs")); 
 
 ?>
