@@ -1,3 +1,4 @@
+<?php
 function degrees($degree, $type, $want){
     if($type == "F"){
         $base = 32;
