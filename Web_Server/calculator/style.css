@@ -1,6 +1,7 @@
 body {
     text-align: center;
-    padding: 20px;
+    padding: 20%;
+    background-image: linear-gradient(lightgreen, cyan);
 }
 form {
     display: inline-block;
@@ -11,6 +12,7 @@ form {
     width: 50%;
     padding: 20px;
     background-image: linear-gradient(cyan, lightgreen);
+    border: 10px solid green;
   }
 
   .button{
