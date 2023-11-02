@@ -6,7 +6,7 @@
     $a=$_POST["a"]??null;
     $b=$_POST["b"]??null;
     $mod=$_POST["mod"]??null;
-    $form = file_get_contents('forms.html');
+    $form = file_get_contents('form.html');
 
     $checked="checked";
     $priklad="";
