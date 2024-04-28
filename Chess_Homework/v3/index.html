@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Authentication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container" class="container">
+        <h2>User Authentication</h2>
+        <form id="loginForm">
+            <input type="text" name="username" id="loginUsername" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <form id="registerForm">
+            <input type="text" name="username" id="registerUsername" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Register</button>
+        </form>
+        <button id="logoutButton" style="display: none;">Logout</button>
+        <button id="playButton" style="display: none;">Play</button>
+        <div id="userInfoDiv" style="display: none;">
+            <div id="loggedInUser"></div>
+            <div id="userWins"></div>
+            <div id="userLosses"></div>
+        </div>
+        <div id="message"></div>
+        <div id="chessboardContainer"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>
